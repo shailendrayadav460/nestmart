@@ -1,0 +1,710 @@
+.custom-border {
+  border: 1px solid #d6d6d6;
+  padding: 20px;
+}
+#strateline{
+   font-size: 15px;
+   text-align: center;
+}
+.custom-bd {
+  border-bottom: 1px solid #cac9c9;
+  font-size: 95%;
+  font-weight: 600;
+  margin-bottom: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+.custom{
+     font-size: 75%;
+
+}
+.btnkkjjk{
+    height: 40px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    color: #1db35b;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left:20px;
+    padding-right: 16px;
+}
+.button{
+     border: 1px solid #f9fcfa;
+     background-color:#58c58e; 
+     padding: 1%;
+     width: 220px;
+     border-radius: 5px;
+     color: white;
+     font-family: Arial;
+}
+.buttonsfd{
+    border: 1px solid #808080;
+     background-color:#ffffff; 
+     border-radius: 5px;
+     margin: 2%;
+     color: white;
+     font-family: Arial;
+     margin-right: 1px;
+}
+#nsaffwiedt{
+    width: 95%;
+    overflow-x: none;
+    height: 1620px;
+    position: relative;
+    overflow: auto;
+    min-height: 1px;
+    scrollbar-width: none; 
+}
+#nacfdfdgswie{
+    width: 28%; 
+    position: sticky; 
+    box-sizing: border-box; 
+    min-height: 1px;
+}
+#pagfd{
+    margin: 0;
+}
+.num{
+    padding: 0px;
+}
+.numpara{
+    padding: 0px;
+    font-weight: 100px;
+}
+.thirdnav{
+    display: flex;
+    justify-content: center;
+}
+#hed1{
+    padding-top: 10px;
+    margin: 0;  
+    color: #65c76a; 
+    
+}
+#hgdfd{
+   height: 40px;
+   width: 40px;
+   background-color: #f7f6f6;
+   border-radius: 50%;
+   text-align: center;
+   padding-top: 7px;
+   color: #616060;
+   font-weight: 600;
+   margin: 6px;
+}
+#hgdfds{
+   height: 40px;
+   width: 40px;
+   background-color: #5aa16f;
+   border-radius: 50%;
+   text-align: center;
+   padding-top: 7px;
+   color: #ffffff;
+   font-weight: 600;
+   margin: 6px;
+
+}
+#hgdfdds{
+    color: #a9a6a6;
+    font-size: 25px;
+    padding: 0;
+    font-weight: 500;
+}
+
+#para{
+    padding: 0;
+    margin: 0; 
+    font-size: 75%;
+}
+.headphone{
+    font-weight: bold;
+    color: rgb(60, 65, 60);
+    font-size: 31px;
+    padding-top: 5px;
+
+}
+.mainsndsearch{
+    height: 60px;
+    width: 500px;
+    border: 1px solid rgb(126, 192, 113);
+    border-radius: 3px;
+    padding: 15px;
+    text-align: center;
+}
+
+.inputse{
+   border:none;
+}
+
+#nober{
+  color: #65c76a;
+  font-weight: 600;
+}
+
+.carousel-slide {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(41, 40, 40);
+    border-radius: 50%;
+}
+
+.subscribe{
+    height: 60px;
+    width: 150px;
+    background-color: #65c76a;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 18px;
+}
+.emailadd{
+    height: 60px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 30px 0 0 30px;
+    text-align: center;
+    padding-top: 18px;
+}
+.emailsub{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border: 1px;
+    border-radius: 30px;
+}
+.carousel-slide{
+   padding-left: 150px;
+   padding-top: 70px;
+   margin: 15px;
+   border-radius: 20px;
+}
+#hedinbg{
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 600;
+}
+.bg-white {
+  height: 35px;
+}
+.home2Card{
+    width: 120px;
+    text-align: center;
+    
+}
+.imagecard{
+    height: 80px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.cardthird{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.seccard{
+    border-radius: 10px;
+    padding: 50px;
+    object-fit: cover;
+    background-image: url('https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-1.png');
+    height: 220px;
+    width: 400px;
+}
+.btm{
+    background-color: #55ca8a;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    color: #f9fcfa;
+    margin-top: 10px;
+}
+.arrownext{
+    font-size: 10px;
+    font-weight: bold;
+}
+.gfdgfd{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 60px;
+}
+.fivediv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 10px 20px 20px;
+}
+.parasna{
+    margin: 0;
+    padding: 0;
+}
+.btnsnak{
+    background-color: #a3d8bd;
+    border: none;
+    height: 30px ;
+    width: 80px;
+    border-radius: 3px;
+    color: rgb(4, 131, 72);
+    font-weight: 600;
+}
+.bring{
+    font-size: 35px;
+    padding: 40px;
+    padding-top:50px ;
+}
+.btnsnaks{
+    background-color: rgb(27, 189, 113);
+    border: none;
+    height:30px ;
+    width: 100px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#delet{
+    font-size: 13px;
+    color: rgb(110, 107, 107);
+    font-weight: 600;
+    margin: 0;
+}
+#heddet{
+   font-size: none;
+   color: rgb(89, 156, 89);
+   margin: 0;
+   margin-right: 10px;
+}
+.delt{
+    display: flex;
+    justify-content: space-between;
+}
+.deltsd{
+    display: flex;
+}
+.rating{
+     display: flex;
+     margin-top: 6px;
+     margin-bottom: 6px;
+     
+}
+.ratingstar{
+    color: rgb(243, 168, 28);
+     font-size: 12.5px;
+}
+.old{
+    font-size: 13.5px;
+}
+
+
+.btnsnak:hover{
+    background-color: red;
+}
+.card-body{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font-size: xx-small;
+}
+.cardfourth{
+    height: 450px;
+    width: 300px;
+    border-radius: 13px;
+    margin: 20px;
+    object-fit: fill;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: url(https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-4.png);
+}
+
+.btnsnakadd{
+    width: 150px;
+    text-align: center;
+    background-color: #53bd6e;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12.5px;
+}
+.progressbar{
+    background-color: #cbe0cc;
+    height: 8px;
+    border-radius: 20px;
+    width: 100%;
+}
+.progr{
+    background-color: #1db35b;
+    height: 8px;
+    border-radius: 20px 0 0 20px;
+    width: 60%;
+}
+.cardfive{
+    margin: 10px;
+    width: 14rem; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.cardsiven{
+    margin: 10px;
+    width: 14rem; 
+}
+.cardfivesf{
+    margin-top: 15px;
+    height: 438px;
+    display: flex;
+    justify-content: space-between;
+}
+.carddfdfd{
+    height: 520px;
+    
+}
+.Cardsix{
+    border-radius: 13px;
+    margin: 20px;
+    object-fit: fill;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: url(https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-5.png);
+    height: 320px;
+    width: 320px;
+    
+}
+.sixcard{
+    height: 160px;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.sixcardsfdfd{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.sixtimedate{
+    background-color: #ffffff;
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 150px;
+    margin-left: 14px;
+    text-align: center;
+    font-size: 12px;
+    color: #1db35b;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.dsisix{
+    display: flex;
+    
+
+}
+.timedf{
+    color: black;
+}
+.cardsixfdf{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.ljj{
+    height: 1px;
+    width: 100%;
+    background-color: #a5a8a6;
+}
+.jsd{
+    width: 100px;
+    background-color: #65b47f;
+    height: 2px;
+}
+
+.tadfdfv{
+    margin: 40px;
+    margin-top: 100px;
+}
+.imgseve{
+    width: 5rem;
+    background-color: rebeccapurple;
+    border-radius: 11px;
+    border: none;
+}
+.imgedfg{
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 22px;
+    margin-left:20px;
+}
+.dsiseven{
+    display: flex;
+    height: 100px;
+    margin: 40px;
+    margin-top: 0;
+    width: 100%;
+}
+.dsieight{
+     display: flex;
+    height: 90px;
+    margin: 10px;
+    margin-top: 0;
+    width: 100%;
+    background-color: #f1f3f1;
+    border-radius: 10px;
+    margin-bottom: 30px; 
+}
+.dsisedf{
+    display: flex;
+    justify-content: center;
+}
+.lkjk{
+    width: 100%;
+}
+.imgagesfdsf{
+    width: 100%;
+    object-fit: fi
+}
+.dsigdfsgg{
+    display: flex;
+    background-color: #c4dde0;
+    height: 417px;
+    width: 98%;
+    margin: 10px;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.afdgf{
+    width: 100%;
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 82px;
+}
+.imafger{
+    height: 253px;
+    margin-top: 164px;
+    margin-right: 53px;
+}
+.cardgfdfg{
+    margin: 23px;
+}
+.lastnav{
+    border-top: 1px solid rgb(157, 226, 174);
+    padding-top:35px;
+    padding-bottom: 35px;
+}
+#logolst{
+    background-color: #5ead7f;
+    border-radius: 50%;
+    height:25px ;
+    width: 25px;
+    text-align: center;
+    padding-top: 1.5px;
+    color: white;
+    font-size: 12.5px;
+    margin: 4px;
+}
+#hkjfgdf{
+    color: black;
+    width: 100%;
+    margin-top: 6px;
+    margin-right: 11px;
+}
+#callicon{
+    font-size: 28px;
+    color: gray;
+    margin-right: 11px;
+}
+.lastndfkdf{
+    display: flex;
+    margin: 13px;
+    margin-left: 46px;
+    margin-top: 29px;
+}
+.lsfdfggfg{
+    width: 100%;
+    margin: 10px;
+    margin-top: 25px;
+    
+}
+.ifgfldkjg{
+    height: 20px;
+    width: 100px;
+    padding-left: 10px;
+}
+
+.imgfggsfdsd{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.fgfgkklkg{
+    margin-right: 20px;
+}
+.itrtrigfjf{
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.secpagbtn{
+    display: flex;
+    margin-top: 20px;
+}
+.sdkfdgdg{
+    display: flex;
+    background-color: #c4e4e7;
+    height: 200px;
+    width: 98.4%;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 55px;
+    padding-top: 65px;
+    margin: 10px;
+}
+.sesfdgsdf{
+    height: 420px;
+    width: 263px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 11px;
+    padding: 15px;
+}
+#dfg92{
+  width: 95%;
+    height: 2px;
+    background-color: rgb(218, 217, 217);
+    margin-top: 8px;
+   
+}
+#fdgddsfgggd{
+    width: 91%;
+    margin-left: 9px;
+    height: 2px;
+    background-color: rgb(218, 217, 217);
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+#dfg91{
+  width: 35%;
+    height: 2px;
+    background-color: rgb(150, 216, 158);
+    
+}
+.hoverdsf:hover{
+    border: 1px solid rgb(137, 214, 214);
+    color: #53bd6e;
+    transition-duration: .5s;
+    box-shadow: rgb(137, 214, 214) 0px 0px 0.25em, rgb(137, 214, 214) 0px 0.25em 1em;
+}
+#imggds{
+    height: 25px;
+    width: 25px;
+    object-fit: fill;
+    margin-right: 10px;
+}
+.rounded-pill{
+        margin-top: 3px;
+}
+#checkdfsdf{
+    color: #1db35b;
+}
+.fontclr{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.form-check{
+    margin: 0;
+}
+
+#fillfdfd{
+    height: 40px;
+    width: 85px;
+    background-color: #52be7b;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 1ms;
+    
+}
+#fillfdfd:hover{
+    width: 95px;
+    background-color: #dbb60e;
+    transition:1ms;
+}
+#formto{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.fgdsggjkhh{
+    font-size: 85%;
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+.randfdfdfdf{
+    color: #1db35b;
+    font-size: 10px;
+}
+.radfdfd{
+    width: 97%;
+    height: 6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#afd34k{
+    margin: 0;
+    margin-right: 10px;
+   }
+#afddimag{
+        height: 70px;
+        width: 71px;
+        margin-right: 20px;
+}
+#fbddd{
+  font-weight: 600;
+  font-size: 18px;
+  color: #38b470;
+
+}
+#sdfj{
+    color: #a4a5a4;
+    font-size: 12px;
+    margin: 0;
+}
+.dotlin{
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.15);
+}
+#imagII {
+    height: 263px;
+    width: 263px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 11px;
+    
+}
+#dfgdgk{
+    color: #434443;
+    position: absolute;
+    width: 100px;
+    margin-top: 97px;
+    margin-left: 51px;
+    font-weight: bold;
+}
+
+
