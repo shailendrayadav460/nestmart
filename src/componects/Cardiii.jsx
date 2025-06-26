@@ -1,19 +1,12 @@
-import Home2Card from "./Home2"
+
+// import ExPractice from "./practiceExample/exPractice"
 
 function Cardafdfdd() {
   return (
     <>
       <div>
         <div className='cardthird'>
-          <Home2Card />
-          <Home2Card />
-          <Home2Card />
-          <Home2Card />
-          <Home2Card />
-          <Home2Card />
-          <Home2Card />
-          <Home2Card />
-          <Home2Card />
+          {/* <ExPractice /> */}
         </div>
       </div>
     </>

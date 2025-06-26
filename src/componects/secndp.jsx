@@ -8,12 +8,19 @@ import IipgltCard from './iipgltCard';
 import Navsec from './navsec';
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import NewPhagefirst from './second';
+import HomePage from './home3';
+import Cardeight from './card8';
+import LastSecondT from './last2pade';
+import Navend from './navend';
+
 
 
 
 function Secndp() {
   return (
     <>
+      <NewPhagefirst />
       <div className='d-flex pt-4 ms-3'>
         <div id='nsaffwiedt'>
           <Navsec />
@@ -67,6 +74,10 @@ function Secndp() {
           <IipgltCard />
         </div>
       </div>
+      <HomePage />
+      <Cardeight />
+      <LastSecondT />
+      <Navend />
     </>
   )
 }

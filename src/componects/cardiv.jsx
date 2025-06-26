@@ -5,17 +5,6 @@ function Cardiv() {
       <div>
         <div className='cardthird'>
           <Cardth />
-          <Cardth />
-          <Cardth />
-          <Cardth />
-          <Cardth />
-        </div>
-        <div className='cardthird'>
-          <Cardth />
-          <Cardth />
-          <Cardth />
-          <Cardth />
-          <Cardth />
         </div>
       </div>
     </>

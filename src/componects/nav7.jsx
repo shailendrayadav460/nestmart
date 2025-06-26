@@ -1,7 +1,7 @@
 import Nav from 'react-bootstrap/Nav';
 
 
-function NavSeven() {
+function Navsevenx() {
   return (
 
       <div className='fivediv'>
@@ -13,4 +13,4 @@ function NavSeven() {
   );
 }
 
-export default NavSeven;
+export default Navsevenx;
