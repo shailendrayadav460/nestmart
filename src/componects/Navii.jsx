@@ -56,7 +56,7 @@ function Navii() {
                 <div className='kfgfgdfdffdg'>
                   <ul style={{ marginBottom: 0 }}>
                     <a className='allcret'>All Categories</a>
-                    <li style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
+                    <li style={{  position: 'relative', display: 'flex', justifyContent: 'center' }}>
                       {showHomePopup && (
                         <div className="oieruet scrollable-dropdown" style={{
                           position: 'absolute',
@@ -70,7 +70,7 @@ function Navii() {
                           boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
                           maxHeight: '250px',
                           overflowY: 'auto',
-                          width: '200px'
+                          width: '200px',
                         }}>
                           <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
                             {categories.map((cat, index) => (
