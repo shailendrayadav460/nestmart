@@ -1,35 +1,67 @@
-import React from 'react'
-import { useState } from 'react'
-import { FaAngleDown } from 'react-icons/fa'
-
+import React, { useState, useRef } from 'react';
+import { FaAngleDown } from 'react-icons/fa';
 
 function BroallCoteg() {
-    const [showHomePopup,setshowHomePopup] = useState(false)
-  return (
-      <div>
-          <ul onMouseLeave={() => setshowHomePopup(false)}
-           onMouseEnter={() => setshowHomePopup(true)}>
-              <li
+  const [showHomePopup, setShowHomePopup] = useState(false);
+  const timeoutRef = useRef(null);
 
-                  style={{ position: 'relative' }}
-              >
-                  <a id='poiuytrtyu'  href='/'><span> All Browse Categories <FaAngleDown /></span></a>
-                  {showHomePopup && (
-                      <div className="oieruet" >
-                          <ul>
-                              <li className='pb-1 pt-3 '><a id='artfttg' href='#'>Home1</a></li>
-                              <li className='pb-1 pt-1'><a id='artfttg' href='#'>Home2</a></li>
-                              <li className='pb-1 pt-1'><a id='artfttg' href='#'>Home3</a></li>
-                              <li className='pb-1 pt-1'><a id='artfttg' href='#'>Home4</a></li>
-                              <li className='pb-1 pt-1'><a id='artfttg' href='#'>Home5</a></li>
-                              <li className='pb-3 pt-1'><a id='artfttg' href='#'>Home6</a></li>
-                          </ul>
-                      </div>
-                  )}
-              </li>
-          </ul>
-      </div>
-  )
+  const categories = [
+    'Milks and Dairies',
+    'Wines & Alcohol',
+    'Clothing & Beauty',
+    'Pet Foods & Toy',
+    'Fast Food',
+    'Baking Material',
+    'Vegetables',
+    'Fresh Seafood',
+    'Noodles & Rice',
+    'Ice Cream',
+    'Wines & Alcohol',
+    'Clothing & Beauty',
+    'Pet Foods & Toy',
+    'Fast Food',
+    'Baking Material',
+    'Vegetables',
+    'Fresh Seafood',
+    'Noodles & Rice',
+    'Ice Cream'
+  ];
+
+  const handleMouseEnter = () => {
+    clearTimeout(timeoutRef.current);
+    setShowHomePopup(true);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setShowHomePopup(false);
+    }, 150);
+  };
+
+  return (
+    <div>
+      <ul onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <li style={{ position: 'relative' }}>
+          <a id="poiuytrtyu" href="/">
+            <span>
+              All Browse Categories <FaAngleDown />
+            </span>
+          </a>
+          {showHomePopup && (
+            <div className="oieruet scrollable-dropdown">
+              <ul>
+                {categories.map((cat, index) => (
+                  <li className="pb-1 pt-1" key={index}>
+                    <a id="artfttg" href="#">{cat}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </li>
+      </ul>
+    </div>
+  );
 }
 
-export default BroallCoteg
+export default BroallCoteg;

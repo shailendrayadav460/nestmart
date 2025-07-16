@@ -18,7 +18,7 @@ function CarouselFirst() {
                       <h1 id='hedinbg'>Don't miss amazing<br /> grocery deals</h1><br />
                       <p>Sign up for the daily newsletter</p><br />
                       <div className='emailsub'>
-                          <div className='emailadd'><CiLocationArrow1 /> Your email address </div>
+                         <div className='emailaddd'><input className='emailadd' type='email' placeholder='Your email address'></input> </div>
                           <div className='subscribe'>Subscribe</div>
                       </div>
                   </div>
@@ -28,7 +28,7 @@ function CarouselFirst() {
                       <h1 id='hedinbg'>Fresh Vegetables<br /> Big discount</h1><br />
                       <p>Save up for 50 %the daily newsletter</p><br />
                       <div className='emailsub'>
-                          <div className='emailadd'><CiLocationArrow1 /> Your email address </div>
+                         <div className='emailaddd'><input className='emailadd' type='email' placeholder='Your email address'></input> </div>
                           <div className='subscribe'>Subscribe</div>
                       </div>
                   </div>

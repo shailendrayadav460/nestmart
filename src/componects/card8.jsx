@@ -22,7 +22,7 @@ function Cardeight() {
                 </div>
                 <div className='dsisix'>
                     <div className='dsieight'>
-                        <img className='imgedfg' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                        <img className='imgedfg' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-2.jpg' />
                         <div className='cardgfdfg' >
                             <Card.Body>
                                 <h6 className='parasna'>
@@ -36,7 +36,7 @@ function Cardeight() {
                 </div>
                 <div className='dsisix'>
                     <div className='dsieight'>
-                        <img className='imgedfg' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                        <img className='imgedfg' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-3.jpg' />
                         <div className='cardgfdfg' >
                             <Card.Body>
                                 <h6 className='parasna'>
@@ -50,7 +50,7 @@ function Cardeight() {
                 </div>
                 <div className='dsisix'>
                     <div className='dsieight'>
-                        <img className='imgedfg' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                        <img className='imgedfg' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-4.jpg' />
                         <div className='cardgfdfg' >
                             <Card.Body>
                                 <h6 className='parasna'>
@@ -64,7 +64,7 @@ function Cardeight() {
                 </div>
                 <div className='dsisix'>
                     <div className='dsieight'>
-                        <img className='imgedfg' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                        <img className='imgedfg' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-5.jpg' />
                         <div className='cardgfdfg' >
                             <Card.Body>
                                 <h6 className='parasna'>

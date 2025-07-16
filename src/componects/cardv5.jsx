@@ -7,12 +7,9 @@ function Cardvx() {
         <div className='carddfdfd'>
           <Cardfourth />
         </div>
-        <div className='cardfivesf'>
-          <CardFive />
-          <CardFive />
-          <CardFive />
-          <CardFive />
-        </div>
+        <ul className="cardfivesf">
+            <CardFive />
+        </ul>
       </div>
     </div>
   )

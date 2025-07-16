@@ -4,7 +4,6 @@ export const CartContext = createContext();
 
 export function CartProvider({ children }) {
   const [cartItems, setCartItems] = useState([]);
-
   const addToCart = (item) => {
   setCartItems([...cartItems, { ...item, quantity: 1 }]);
 };
@@ -20,7 +19,7 @@ const removeFromCart = (id) => {
   );
 }
 
-export default CartContext;
+export default CartContext; 
 
 
 

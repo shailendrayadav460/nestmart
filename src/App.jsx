@@ -24,12 +24,16 @@ import Wishlist from './componects/wishlist';
 import Cardboxcb from './componects/card';
 import Account from './componects/account';
 import Logout from './componects/logout';
-import Container from 'react-bootstrap/esm/Container';
 import Home2Card from './componects/Home2';
-
+import ProductCard from './componects/details';
+import ScrollToTop from './componects/ScrollToTop';
+import PopupModal from './componects/PopupModal';
+import Snackitems from './componects/snack page/SnackItems';
+import Contactpages from './componects/ContactPages/Contactpages';
 function Home() {
   return (
     <>
+      <PopupModal />
       <CarouselFirst />
       <Navfour />
       <Cardafdfdd />
@@ -49,17 +53,21 @@ function Home() {
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navfirst />
       <Navii />
       <Naviii />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Snack" element={<Snackitems />} />
+        <Route path="/Contact" element={<Contactpages/>} />
         <Route path="/Compare" element={<Comparepg />} />
         <Route path="/Wishlist" element={<Wishlist />} />
         <Route path="/secndp" element={<Secndp />} />
         <Route path="/cart" element={<Cardboxcb />} />
         <Route path="/account" element={<Account />} />
         <Route path="/Logout" element={<Logout />} />
+        <Route path="/product/:id" element={<ProductCard />} />
       </Routes>
       <HomePage />
       <Cardeight />
@@ -69,5 +77,5 @@ function App() {
   );
 }
 
-export default App;
+export default App
 

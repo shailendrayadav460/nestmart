@@ -3,11 +3,15 @@ import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { IoIosStar, IoIosStarHalf } from "react-icons/io";
 import { useEffect, useState, useContext } from 'react';
 import CartContext from './practiceExample/cartcontext';
+import { useNavigate } from 'react-router-dom';
 
 function Cardth() {
   const [products, setProducts] = useState([]);
   const { addToCart } = useContext(CartContext); 
-
+  const navigate = useNavigate();
+  const goToDetails = (item) => {
+    navigate(`/product/${item.id}`, { state: item });
+  };
   useEffect(() => {
     fetch("https://6855017f6a6ef0ed6630de24.mockapi.io/store/products")
       .then((res) => res.json())
@@ -16,57 +20,32 @@ function Cardth() {
   }, []);
 
   return (
-    <ul className='adfdlkfdlklll'>
+    <ul className='product-flex'>
       {products.map((item) => (
-        <Card key={item.id} style={{ width: '15rem' }}>
-          <Card.Img className='preriii' variant="top" src={item.image} onClick={() => addToCart(item)} />
-          <Card.Body>
-            <p className='parasna'>{item.name}</p>
+        <Card key={item.id} style={{ width: '14rem',   }} className='product-card'>
+          <Card.Img
+            variant="top"
+            src={item.image}
+            onClick={() => goToDetails(item)}
+          />
+          <Card.Body className='card-body'>
+            <p className='brand'>{item.name}</p>
             <h6 className='parasna'>{item.description}</h6>
             <div className='rating'>
-              <div className='ratingstar'><IoIosStar /><IoIosStar /><IoIosStar /><IoIosStar /><IoIosStarHalf /></div>
-              <div id='delet'>(4.0)</div>
+              <IoIosStar /><IoIosStar /><IoIosStar /><IoIosStar /><IoIosStarHalf />
+              <span>(4.0)</span>
             </div>
-            <p className='old'>By <span id='heddet'>Old El Paso</span></p>
-            <div className='delt'>
-              <div><h6 id='heddet'>${item.price}</h6> <del id='delet'>$32.0</del></div>
-              <button className='btnsnak' onClick={() => addToCart(item)}><HiOutlineShoppingCart /> Add</button>
+            <div className='price-row'>
+              <h6>${item.price}</h6> <del>$32.0</del>
             </div>
+            <button className='butadd' onClick={() => addToCart(item, 1)}>
+              <HiOutlineShoppingCart /> Add
+            </button>
           </Card.Body>
         </Card>
       ))}
     </ul>
   );
 }
-
 export default Cardth;
 
-
-
-// import { useContext } from 'react';
-// import CartContext from './practiceExample/cartcontext'; // ✅ import context
-
-// function Cardth() {
-//   const { addToCart } = useContext(CartContext); // ✅
-
-  
-
-//   return (
-//     <>
-//       {products.map((items) => (
-//         <Card style={{ width: '15rem' }} key={items.name}>
-         
-//           <button
-//             className='btnsnak'
-//             onClick={() => addToCart(items)} // ✅ onClick
-//           >
-//             <HiOutlineShoppingCart /> Add
-//           </button>
-//         </Card>
-//       ))}
-//     </>
-//   );
-// }
-
-
-// export default Cardth;

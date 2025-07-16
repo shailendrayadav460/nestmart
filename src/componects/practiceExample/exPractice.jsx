@@ -20,9 +20,9 @@
 //   );
 // }
 
-// export default ExPractice
+// // export default ExPractice
 
- // ← path sahi rakhna
+//  // ← path sahi rakhna
 // import Home2Card from "../Home2";
 // import { useState } from "react"; // jahan data dikhayenge
 

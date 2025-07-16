@@ -54,7 +54,7 @@
 //           >
 //             <p className="text-danger fw-bold mb-1">Hot Deals</p>
 //             <h4>Don't miss Trending<br /><span className="text-warning">Save up to 50%</span></h4>
-//             <button className="btn btn-success mt-2">Shop Now</button>
+//             <button className="btn btn-success mt-2"> Now</button>
 //           </div>
 
 //           <div className="position-relative">

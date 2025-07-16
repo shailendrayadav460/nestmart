@@ -18,7 +18,7 @@ function Tablesveg() {
 
               <div className='dsisix'>
                   <div className='dsiseven'>
-                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-11.jpg' />
                       <div className='cardsiven' >
                           <Card.Body>
                               <h6 className='parasna'>
@@ -47,7 +47,7 @@ function Tablesveg() {
               </div>
               <div className='dsisix'>
                   <div className='dsiseven'>
-                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-10.jpg' />
                       <div className='cardsiven' >
                           <Card.Body>
                               <h6 className='parasna'>
@@ -115,7 +115,7 @@ function Tablesveg() {
 
               <div className='dsisix'>
                   <div className='dsiseven'>
-                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-2.jpg' />
                       <div className='cardsiven' >
                           <Card.Body>
                               <h6 className='parasna'>
@@ -144,7 +144,7 @@ function Tablesveg() {
               </div>
               <div className='dsisix'>
                   <div className='dsiseven'>
-                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-3.jpg' />
                       <div className='cardsiven' >
                           <Card.Body>
                               <h6 className='parasna'>
@@ -173,7 +173,7 @@ function Tablesveg() {
               </div>
               <div className='dsisix'>
                   <div className='dsiseven'>
-                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-4.jpg' />
                       <div className='cardsiven' >
                           <Card.Body>
                               <h6 className='parasna'>
@@ -212,7 +212,7 @@ function Tablesveg() {
 
               <div className='dsisix'>
                   <div className='dsiseven'>
-                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-5.jpg' />
                       <div className='cardsiven' >
                           <Card.Body>
                               <h6 className='parasna'>
@@ -241,7 +241,7 @@ function Tablesveg() {
               </div>
               <div className='dsisix'>
                   <div className='dsiseven'>
-                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-6.jpg' />
                       <div className='cardsiven' >
                           <Card.Body>
                               <h6 className='parasna'>
@@ -270,7 +270,7 @@ function Tablesveg() {
               </div>
               <div className='dsisix'>
                   <div className='dsiseven'>
-                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-1.jpg' />
+                      <img className='imgseve' src='https://nest-frontend-v6.vercel.app/assets/imgs/shop/thumbnail-7.jpg' />
                       <div className='cardsiven' >
                           <Card.Body>
                               <h6 className='parasna'>

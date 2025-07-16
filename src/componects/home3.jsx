@@ -11,9 +11,9 @@ function HomePage() {
                   <h1 >Stay home & get your daily<br/> needs from our shop</h1><br />
                   <p>Start You'r Daily Shopping with <span id='nober'>Nest Mart </span></p><br />
                   <div className='emailsub'>
-                      <div className='emailadd'><CiLocationArrow1 /> Your email address </div>
-                      <div className='subscribe'>Subscribe</div>
-                  </div>
+                  <div className='emailaddd'><input className='emailadd' type='email' placeholder='Your email address'></input> </div>
+                  <div className='subscribe'>Subscribe</div>
+              </div>
               </div  >
               <div > <Image className='imafger' src="https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-9.png" rounded />
               </div>

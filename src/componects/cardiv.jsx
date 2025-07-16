@@ -3,7 +3,7 @@ function Cardiv() {
   return (
     <>
       <div>
-        <div className='cardthird'>
+        <div className='cardthirdth'>
           <Cardth />
         </div>
       </div>
