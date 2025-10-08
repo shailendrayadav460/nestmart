@@ -5,7 +5,7 @@ function Home2Card() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://6855017f6a6ef0ed6630de24.mockapi.io/store/products")
+    fetch("https://68e5f78221dd31f22cc3906b.mockapi.io/store/products")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.error("Error fetching products:", err));
@@ -15,15 +15,20 @@ function Home2Card() {
   const loopProducts = [...products, ...products];
 
   return (
-    <div className="scroll-wrapper">
-      <div className="scroll-track">
-        {loopProducts.map((item, index) => (
-          <Card className="home2Card" key={index}>
-              <Card.Img className="imagecard" variant="top" src={item.image} />
-          </Card>
-        ))}
-      </div>
-    </div>
+ <div className="scroll-wrapper">
+  <div className="scroll-track">
+    {loopProducts.map((item, index) => (
+      <Card className="home2Card" key={index}>
+        <Card.Img
+          className="imagecard"
+          variant="top"
+          src={item.Img}
+          style={{ padding: '10px' }}
+        />
+      </Card>
+    ))}
+  </div>
+</div>
   );
 }
 
