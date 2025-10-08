@@ -13,7 +13,7 @@ function Cardth() {
     navigate(`/product/${item.id}`, { state: item });
   };
   useEffect(() => {
-    fetch("https://6855017f6a6ef0ed6630de24.mockapi.io/store/products")
+    fetch("https://68e5f78221dd31f22cc3906b.mockapi.io/store/products")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.error("Error fetching products:", err));
